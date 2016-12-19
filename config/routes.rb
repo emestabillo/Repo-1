@@ -53,5 +53,8 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   root 'quotes#index'
+
+  resources :quotes
+
   #   end
 end
